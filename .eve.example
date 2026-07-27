@@ -1,0 +1,25 @@
+# Telegram API
+API_ID=your_api_id
+API_HASH=your_api_hash
+BOT_TOKEN=your_bot_token
+
+# MongoDB
+MONGO_URI=mongodb://localhost:27017
+DB_NAME=file_store_bot
+
+# Admin
+OWNER_ID=your_telegram_user_id
+
+# Logging
+LOG_CHANNEL=your_log_channel_id
+
+# Default Settings
+DEFAULT_DELETE_TIME=10
+DEFAULT_BATCH_EXPIRY=5
+
+# Rate Limiting
+RATE_LIMIT=5
+RATE_LIMIT_PERIOD=60
+
+# Encryption (must be 32 bytes)
+ENCRYPTION_KEY=your-secret-key-32bytes-long
